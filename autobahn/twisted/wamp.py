@@ -41,13 +41,13 @@ import txaio
 txaio.use_twisted()
 
 
-__all__ = (
+__all__ = [
     'ApplicationSession',
     'ApplicationSessionFactory',
     'ApplicationRunner',
     'Application',
     'Service'
-)
+]
 
 try:
     from twisted.application import service
